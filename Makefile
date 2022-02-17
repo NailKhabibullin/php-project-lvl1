@@ -18,7 +18,7 @@ test-coverage:
 	composer exec --verbose phpunit tests -- --coverage-clover build/logs/clover.xml
 
 brain-games:
-	.bin/brain-games
+	./bin/brain-games
 
 validate:
 	composer validate
